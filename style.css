@@ -72,3 +72,37 @@ li {
 .btn:hover {
     background-color: #357abd;
 }
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    width: 100%;
+    border-top: 1px solid #2a2a35;
+    color: #a0a0aa;
+}
+
+footer p {
+    margin: 8px 0;
+    color: #888;
+    font-size: 14px;
+}
+.footer-logo-container {
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+
+.kafka-footer-icon {
+   width: 80px;
+   height: auto;
+   border-radius: 12px;
+   object-fit: contain;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.4s ease;
+   padding: 6px;
+}
+
+.kafka-footer-icon:hover {
+    transform: scale(1.1);
+}
