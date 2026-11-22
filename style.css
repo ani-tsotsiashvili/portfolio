@@ -60,9 +60,34 @@ li {
     margin-top: 15px;
 }
 
+ .project-card {
+  background-color: #2c2c2c;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+ }
+
+ .project-links a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+ }
+
+ .project-links a:hover {
+  text-decoration: underline;
+ }
+
+ .project-img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  display: block;
+ }
+
 .btn {
     background-color: #4a90e2;
-    color: #fffffff;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
